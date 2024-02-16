@@ -28,7 +28,19 @@
     font-size: 22px;
     margin: 0;
     text-align: left;
-    padding-left: 8%;
+}
+
+.profile-subSubContainer{
+    padding-left: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-subContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
 }
 
 .profile-subtitle{
@@ -36,8 +48,7 @@
     color: #8492a6;
     font-size: 15px;
     margin: 0;
-    text-align: left;
-    padding-left: 8%;
+    padding-left: 7%;
 }
 
 .logout-btn{
@@ -46,14 +57,23 @@
 }
 
 .profile-container{
+    border-top: 1.5px solid rgb(235, 235, 235);
+    /*border-radius: 6px;*/
+    padding-top: 8%;
+    /* padding-bottom: 12%; */
+    /*box-shadow: 0 0 3px rgba(52,58,64,0.08);*/
+    text-align: center;
+}
+
+.profile-container1{
     border-bottom: 1.5px solid rgb(235, 235, 235);
     /*border-radius: 6px;*/
-    padding-top: 18%;
+    margin-top: 5%;
     padding-bottom: 12%;
     /*box-shadow: 0 0 3px rgba(52,58,64,0.08);*/
     text-align: center;
-    
 }
+
 
 
 /*.menu-items1{
